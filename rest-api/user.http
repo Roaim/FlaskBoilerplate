@@ -1,0 +1,34 @@
+POST {{host}}/register
+Content-Type: application/json
+
+{
+  "method": "password",
+  "password": "hridoy1234",
+  "user": {
+    "name": "Roaim Ahmed",
+    "email": "roaimahmed1234@gmail.com"
+  }
+}
+
+###
+
+POST {{host}}/login
+Content-Type: application/json
+
+{
+  "method": "password",
+  "email_or_phone": "roaimahmed1234@gmail.com",
+  "password": "hridoy1234"
+}
+
+###
+
+GET {{host}}/users
+Authorization: Bearer {{token}}
+
+###
+
+GET {{host}}/users/me
+Authorization: Bearer {{token}}
+
+###

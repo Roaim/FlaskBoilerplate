@@ -1,0 +1,47 @@
+POST {{host}}/countries
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Bangladesh",
+  "iso_code": "BD",
+  "isd_code": "88"
+}
+
+###
+
+GET {{host}}/countries
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+###
+
+POST {{host}}/cities
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Dhaka",
+  "country_id": 2
+}
+
+###
+
+GET {{host}}/countries/1/cities
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+###
+
+POST {{host}}/addresses
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "line1": "Silicon Imperial",
+  "line2": "Flat: 1B",
+  "street": "R: 4, B: D, Banasree",
+  "city_id": 2
+}
+
+###
