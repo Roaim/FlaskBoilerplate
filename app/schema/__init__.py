@@ -1,0 +1,1 @@
+BASE_MODEL_FIELDS = ('created_at', 'updated_at', 'created_by_user_id')
