@@ -25,8 +25,8 @@ This is a simple Backend Rest API developed using python flask. The architecture
 
 Create project directory
 
-    mkdir gsapi
-    cd gsapi
+    mkdir flaskboilerplate
+    cd flaskboilerplate
     
 #### Requirements
 * **Python 3.7+**
