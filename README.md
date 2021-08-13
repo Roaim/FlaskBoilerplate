@@ -34,7 +34,7 @@ Create project directory
 Run the following commands to create and activate a virtual environment named `venv` (different name can be used)
 
     python3 -m venv venv
-    . venv/vin/activate
+    . venv/bin/activate
 
 ## Build and Install
 Set flask app by running following command:
